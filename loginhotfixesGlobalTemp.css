@@ -1,0 +1,272 @@
+#LoginWidgetApp .usb-notification .icon svg {
+    position: static;
+    width:20px;
+}
+
+#LoginWidgetApp .usb-notification .icon {
+margin-right: 0.75rem !important;
+}
+
+#ReactLoginWidgetApp .usb-button.button--secondary {
+color: #0a41c5 !important;
+}
+#ReactLoginWidgetApp .usb-button.button--secondary:hover {
+color: #fff !important;
+}
+
+#ReactLoginWidgetApp #otp-button-group button#otp-cancl-button {
+color: #0a41c5 !important;
+float:unset !important;
+}
+
+#ReactLoginWidgetApp #otp-button-group button{
+width:100%;
+outline-offset: 0.25rem;
+}
+
+#ReactLoginWidgetApp .form-control__radio .input__container input[type=radio]:before{
+left: 0.8rem !important;
+top: 0.8rem !important;
+height: 1.75rem !important;
+width: 1.75rem !important;
+}
+#ReactLoginWidgetApp .form-control__radio .input__container input[type=radio]:after{
+left: 0.8rem !important;
+top: 0.8rem !important;
+height: 1.25rem !important;
+width: 1.25rem !important;
+}
+#ReactLoginWidgetApp #otp-button-group button.usb-button.button--text {
+color: #0a41c5 !important;
+}
+
+#ReactLoginWidgetApp .spinner {
+width: 100%;
+}
+
+.form-control__input.show-hide button:focus {
+padding: 1rem 0.5rem; 
+margin: 0; 
+} 
+.global-nav .login-widget-container .form-control__input.show-hide button {
+top: 0.5rem ;
+}
+
+#ReactLoginWidgetApp .form-control__input .warning-icon{
+margin: 0 0.25rem 0;
+}
+
+#ReactLoginWidgetApp .form-control__input .error-text__container .error-text__error{
+margin: 5px 0;
+}
+
+#ReactLoginWidgetApp .usb-button-group .usb-button.button--default {
+margin: 1.25rem 0 0;
+}
+
+.reset-pwd-page .usb-button-group{
+padding : 1rem 0px;
+}
+
+.reset-pwd-page .validation-text{
+padding-left: 5px;
+}
+
+.reset-pwd-page .pwd-cancel {
+color: #0a41c5!important;
+}
+.reset-pwd-page .pwd-cancel:hover {
+color: #fff !important;
+}
+.aw-usb-authenticate.reset-pwd-page {
+padding: 1.125rem;
+}
+
+.reset-pwd-page .pwd-cancel, .reset-pwd-page .pwd-continue {
+margin: 0 !important;
+}
+.shield-content #ReactLoginWidgetApp h2 {
+font-size: 20px !important;
+padding-bottom: 12px !important;
+}
+
+
+#ReactLoginWidgetApp button#information-banner--close-btn {
+    outline-offset: 0 !important;
+}
+
+ 
+
+#ReactLoginWidgetApp .form-control__input.show-hide button:focus, .form-control__input.show-hide button:hover{
+   border: 1px solid #0a41c5 !important;
+}
+
+ 
+
+#ReactLoginWidgetApp #login-button-continue{
+     outline-offset: 0.25rem !important; 
+}
+
+ 
+
+#ReactLoginWidgetApp #top-error-msg .error .single-notification--text .usb-link {
+     font-size: 1.25rem !important;
+}
+@font-face {
+    font-family: "U.S. Bank Circular Regular";
+    src: url("https://content.usbank.com/content/dam/onlinebanking/common/static/fonts/U.S.BankCircularWeb-Regular.woff2")
+        format("woff2"),
+      url("https://content.usbank.com/content/dam/onlinebanking/common/static/fonts/U.S.BankCircularWeb-Regular.woff")
+        format("woff");
+  }
+@font-face {
+    font-family: "U.S. Bank Circular Medium";
+    src: url("https://content.usbank.com/content/dam/onlinebanking/common/static/fonts/U.S.BankCircularWeb-Medium.woff2")
+        format("woff2"),
+        url("https://content.usbank.com/content/dam/onlinebanking/common/static/fonts/U.S.BankCircularWeb-Medium.woff")
+        format("woff");
+}
+#browser_error_txt{
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.12);
+    width: 50%;
+    margin: 0 auto;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.safa-content{
+    
+    background-color: #fff;
+    padding: 1rem 2.5rem 1rem 1rem;
+    border-radius: 0.25rem 0.25rem 0 0;
+    position: relative;
+    outline-offset: -1px;
+    color: #2E2E32;
+    font-family: 'U.S. Bank Circular Regular';
+    letter-spacing: 0em;
+    text-align: left
+
+}
+.safa-content h1 {
+    font-size: 1.25em;
+    font-family: 'U.S. Bank Circular Medium';
+    font-weight: 500 !important;
+}
+.safa-visible{
+    display: block;
+}
+.safa-hidden{
+    display: none;
+}
+.safari-flex-inline{
+    display: flex;
+    align-items: center;
+}
+.safa-info{
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.75rem;
+    align-self: center;
+}
+.safa-close{
+    position: absolute !important;
+    padding: 7px 3px !important;
+    top: 0.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+    height: 2rem !important;
+    min-height: 0;
+    min-width: 0;
+    width: 2rem;
+    background: transparent;
+    border: transparent;
+}
+.safa-close:focus{
+    outline: none;
+}
+.safa-footer{
+    border-radius: 0 0 0.25rem 0.25rem;
+    padding: 1rem;
+    flex-flow: row-reverse;
+    background-color: #F5F5FA;
+}
+.safa-button{
+    min-height: 2.5rem;
+    max-height: 2.5rem;
+    line-height: 0.5 !important;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    font-family: 'U.S. Bank Circular Medium' !important;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 40px;
+    line-height: 1;
+    outline: transparent;
+    position: relative;
+    transition: color .1s ease,border .1s ease;
+    white-space: nowrap;
+}
+.safa-prime{
+    background: linear-gradient(-180deg,#0a41c5,#0a41c5);
+    border-color: transparent;
+    border-width: 0;
+    border-radius: 0.25rem !important;
+    color: #fff;
+    margin-left: 12px;
+}
+.safa-sec{
+    background: transparent;
+    border-width: 1px !important;
+    border-color: #0a41c5 !important;
+    border-radius: 0.25rem !important;
+    color: #0a41c5 !important;
+    font-weight: 500;
+    line-height: 1;
+    transition: margin .1s ease;
+}
+.safa-button:focus:before, .safa-close:focus:before {
+    border: 2px solid #0a41c5;
+    border-radius: 0.25rem;
+    content: "";
+    height: calc(100% + 0.75rem);
+    position: absolute;
+    left: -0.5rem;
+    top: -0.5rem;
+    width: calc(100% + 0.75rem);
+}
+.safa-sec:hover{
+    background: linear-gradient(-180deg,#0a41c5,#0c2074);
+    border: 1px solid #0a41c5;
+    color: #fff !important;
+}
+.safa-prime:hover{
+    background: linear-gradient(-180deg,#0a41c5,#0c2074);
+    color: #fff;
+}
+.safa-close:focus:before {
+    left: -0.5rem;
+    top: -0.5rem;
+}
+.safa-body-text{
+    color: #555555;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 10px !important;
+}
+.safa-heading{
+    color: #2E2E32;
+    font-size: 1.25rem;
+    line-height: 30px;
+}
+.safa-overlay{
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    transition: background-color 1s ease;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    left: 0;
+}
